@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: beige;
+}
+
+
+
+.topNav {
+background-color: black;
+width: 100%;
+display: flex;
+justify-content: space-around;
+margin: 0 auto;
+padding: 0;
+list-style-type: none;
+position: fixed;
+top: 0;
+
+}
+.topNav .navName {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px; 
+    color: darkcyan;
+    text-shadow: 1px 1px 1px black;
+    padding-top: 18px;
+    padding-left: 20px;
+    margin-right: auto;
+   
+}
+
+
+.topNav a {
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: peru;
+    padding: 20px 40px 20px 40px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color .7s, text-shadow .7s;
+
+    
+}
+
+.topNav a.linkEffects:hover {
+    background-color: tan;
+    text-shadow: 1px 1px 1px white;
+    
+}
+
+.name {
+    color: white;
+    text-shadow: 2.5px 2.5px 2.5px black;
+    background-color: darkgrey;
+    border: 2px solid black;
+    display: table;
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 10px;
+    
+    
+
+
+}
+.card {
+    margin: 30px;
+    text-align: left;
+    background: cornsilk;
+    border-bottom: 4px solid cornflowerblue;
+    border-left: 4px solid cornflowerblue;
+    border-radius: 6px;
+    overflow: auto;
+    padding: 25px 25px;
+    
+}
+.card a {
+    text-decoration: none;
+    color: black;
+}
+.profileImage {
+    border: 3px black solid;
+    border-radius: 75%;
+    
+    }
+header {
+    text-align: center;
+    background: url("../img/code.jpg") no-repeat top center;
+    background-size: 100% 480px;
+    
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 60px;
+
+}
+
+.card p {
+    margin: auto;
+    font-size: 18px;
+    
+}
+.card img {
+    width: 280px;
+    height: 200px;
+    float: right;
+    position: relative;
+    display: block;
+    margin-top:10px; 
+    margin-bottom:10px; 
+    margin-left:100px; 
+    margin-right:5px
+    
+}
+.skillsOne {
+    background-color: rgb(30, 114, 106);
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    margin: 8px;
+    border: .5px solid black;
+    border-radius: 8px;
+    
+}
+.skillsTwo {
+background-color: rgb(64, 112, 15);
+display: flex;
+padding: 5px 5px 5px 5px;
+margin: 8px;
+border: .5px solid black;
+border-radius: 8px;
+
+}
+.skills {
+    display: flex;
+    padding: 0px 30px 0px 30px;
+    
+
+}
+.flex {
+    margin: auto;
+    max-width: 1200px;
+    
+}
+
+
+
