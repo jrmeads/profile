@@ -7,10 +7,43 @@ body {
     background-color: beige;
 }
 
-.profileImage {
-border: 3px black solid;
-border-radius: 75%;
-}
+.profile-image-one {
+    width: 200px;
+    height: 140px;
+    
+     
+    }
+    .profile-image-two{
+    width: 200px;
+    height: 140px;
+    
+    }
+    #profile-image img {
+        position: absolute;
+        border: 3px black solid;
+        border-radius: 75%;
+        opacity: 1;
+        -webkit-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;
+        margin: 0 auto;
+        text-align: center;
+        left: 570px;
+        top: 140px;
+    }
+    #profile-image img.profile-image-one:hover {
+    
+    opacity: 0;
+        
+    }
+    header {
+        text-align: center;
+        background: url("img/code.jpg") no-repeat top center;
+        background-size: 100% 480px;
+        
+        overflow: hidden;
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
 
 .topNav {
 background-color: black;
@@ -20,7 +53,6 @@ justify-content: space-around;
 margin: 0 auto;
 padding: 0;
 list-style-type: none;
-position: fixed;
 top: 0;
 
 }
@@ -57,26 +89,21 @@ top: 0;
     text-shadow: 1px 1px 1px white;
     
 }
-header {
-    text-align: center;
-    background: url("../img/code.jpg") no-repeat top center;
-    background-size: 100% 480px;
-    
-    overflow: hidden;
-    padding-top: 100px;
-    padding-bottom: 60px;
-}
+
 .name {
     color: white;
     text-shadow: 2.5px 2.5px 2.5px black;
     background-color: darkgrey;
     border: 2px solid black;
     display: table;
-    margin: 50px auto;
+    margin-top: 170px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 15px;
     border-radius: 10px;
     
-    
+
 }
 
 
