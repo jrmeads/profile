@@ -106,11 +106,12 @@ height: 140px;
     left: 570px;
     top: 140px;
 }
-#profile-image img.profile-image-one:hover {
+/* #profile-image img.profile-image-one:hover {
 
 opacity: 0;
     
-}
+} */
+
 header {
     text-align: center;
     background: url("../img/code.jpg") no-repeat top center;
@@ -125,7 +126,10 @@ header {
 .card p {
     margin: auto;
     font-size: 18px;
+    padding: 5px;
     
+    
+
 }
 .card img {
     width: 280px;
@@ -167,6 +171,12 @@ border-radius: 8px;
     margin: auto;
     max-width: 1200px;
     
+}
+.text-dec a {
+    color: peru;
+}
+.text-dec a:hover {
+color: tan;
 }
 
 

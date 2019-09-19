@@ -30,11 +30,12 @@ body {
         left: 570px;
         top: 140px;
     }
+    /* not applicable
     #profile-image img.profile-image-one:hover {
     
     opacity: 0;
         
-    }
+    }*/
     header {
         text-align: center;
         background: url("img/code.jpg") no-repeat top center;
